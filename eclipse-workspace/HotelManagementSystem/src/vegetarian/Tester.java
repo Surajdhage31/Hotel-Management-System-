@@ -1,10 +1,10 @@
 package vegetarian;
-
 public class Tester {
 
 	public static void main(String[] args) {
-		Restaurant item = new Restaurant ();
-		item.Hotel();
+		Center hotel = new Center ();
+		hotel.Hotels();
+		
 
 	}
 

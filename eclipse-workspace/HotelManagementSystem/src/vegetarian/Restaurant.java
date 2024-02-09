@@ -5,12 +5,7 @@ import java.util.Scanner;
 public class Restaurant {
 
 	void Hotel() {
-		Scanner menu = new Scanner(System.in);
-		System.out.println("Enter your choice");
-		System.out.println("1.Break-fast,2.Lunch,3.Dinner");
-		int choice = menu.nextInt();
-		switch (choice) {
-		case 1: {
+		 Scanner menu = new Scanner(System.in); 
 			System.out.println("Menu");
 			System.out.println("1.Tea");
 			System.out.println("2.Coffee");
@@ -104,6 +99,7 @@ public class Restaurant {
 			}
 		}
 		}
+		
 
-	}
-}
+	
+
